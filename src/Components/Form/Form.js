@@ -86,7 +86,7 @@ class Former extends React.Component {
         event.preventDefault();
         this.forceUpdate();
 
-        fetch("https://frozen-refuge-43608.herokuapp.com/Predict", {
+        fetch("https://terrorapi.herokuapp.com/Predict", {
             method: "post",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({
