@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata&display=swap');
+.Jumbo1{
+    margin: 10px 10px 10px 10px;
+    background-image: url("../../Assets/2.png");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-attachment: fixed;
+    color: antiquewhite;
+    display: flexbox;
+}
+
+.ch2{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.ch3{
+    font-family: 'Inconsolata', monospace; ;
+}
+
+@media screen and (max-width: 480px) {
+    .ch3{
+        margin-top: 50px;
+
+    }
+   
+  }
+

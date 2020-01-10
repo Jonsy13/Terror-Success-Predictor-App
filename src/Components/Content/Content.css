@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Changa&display=swap');
+
+.Jumbo{
+    margin: 10px 10px 10px 10px;
+    background-image: url("../../Assets/3.jpg");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-attachment: fixed;
+    color: antiquewhite;
+    text-align: center;
+}
+
+.ch1{
+    font-family: 'Changa', sans-serif;
+    color: lightcyan;
+}
