@@ -88,7 +88,8 @@ class Former extends React.Component {
 
         fetch("https://terrorapi.herokuapp.com/Predict", {
             method: "post",
-            headers: { "Content-Type": "application/json" },
+            headers: { "Content-Type": "application/json" , 
+                       "Access-Control-Allow-Credentials": "true"},
             body: JSON.stringify({
                 Month: this.state.Month,
                 Day: this.state.Day,
